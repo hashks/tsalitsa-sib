@@ -1,0 +1,9 @@
+.foto{
+    border-radius: 50%;
+    margin: 15px auto;
+    display: block;
+    border: solid 5px grey;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    }
