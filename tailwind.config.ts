@@ -11,6 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        beige: {
+          300: '#EDE8DC', // warna beige lebih terang
+        },
+        sage: {
+          300: '#C1CFA1', // warna beige lebih terang
+          500: '#A5B68D', // warna beige lebih gelap
+        },
       },
     },
   },
