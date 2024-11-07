@@ -17,7 +17,7 @@ export default function Hobby() {
       <h2 className="text-2xl text-gray-500">My Gallery</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 my-5">
         {Hobbies.map((hobby) => (
-          <div key={hobby.id} className=" rounded-lg bg-gray-300 bg-opacity-70 text-black p-4">
+          <div key={hobby.id} className=" rounded-lg bg-gray-300 bg-opacity-70 text-gray-700 p-4">
             <img src={hobby.image.src} alt={hobby.name} className="w-full h-auto rounded-md" />
             <div className="mt-2">{hobby.name}</div>
           </div>

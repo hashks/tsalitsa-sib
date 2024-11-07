@@ -38,7 +38,7 @@ const ContactForm: React.FC = () => {
       <h2 className="text-2xl text-gray-500">Contact Form</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
-          <label className="block text-left font-semibold text-gray-700" htmlFor="name">Nama:</label>
+          <label className="block text-left font-semibold text-gray-500" htmlFor="name">Nama:</label>
           <input
             type="text"
             id="name"
@@ -50,7 +50,7 @@ const ContactForm: React.FC = () => {
         </div>
         
         <div>
-          <label className="block text-left font-semibold text-gray-700" htmlFor="comment">Komentar:</label>
+          <label className="block text-left font-semibold text-gray-500" htmlFor="comment">Komentar:</label>
           <textarea
             id="comment"
             value={comment}
@@ -62,7 +62,7 @@ const ContactForm: React.FC = () => {
         </div>
         
         <div>
-          <label className="block text-left font-semibold text-gray-700">Rating:</label>
+          <label className="block text-left font-semibold text-gray-500">Rating:</label>
           <div className="flex space-x-1">
             {[1, 2, 3, 4, 5].map((star) => (
               <button
@@ -78,7 +78,7 @@ const ContactForm: React.FC = () => {
           {rating > 0 && <p className="text-sm text-gray-600">Rating yang dipilih: {rating} bintang</p>}
         </div>
         
-        <button type="submit" className="bg-indigo-500 text-white px-4 py-2 rounded-md hover:bg-indigo-600 transition">
+        <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
           Submit
         </button>
         

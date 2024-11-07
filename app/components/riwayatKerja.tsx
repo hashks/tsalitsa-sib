@@ -20,7 +20,7 @@ interface RowRiwayatKerjaProps {
     return (
       <div className=" rounded-lg bg-gray-300 bg-opacity-70 p-2 my-5">
       <div className="container mx-auto ">
-        <div className="grid grid-cols-12 gap-1 text-black">
+        <div className="grid grid-cols-12 gap-1 text-gray-700">
           <div className="col-span-12 md:col-span-4">{props.tahun}</div>
           <div className="col-span-12 md:col-span-4">{props.instansi}</div>
           <div className="col-span-12 md:col-span-4">{props.jabatan}</div>
